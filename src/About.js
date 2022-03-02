@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
+import aboutImg from "./img/prof.png";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -9,45 +9,37 @@ function About() {
     });
   return (
     <div className="about component__space" id="About">
-      <div className="container">
+      <div className="container" id="container-content">
         <div className="row">
-          <div className="col__2">
+
+          <div className="col__2 my-auto mx-auto">
             <img src={aboutImg} alt="" className="about__img" />
           </div>
+
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
-              <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              
+              <p className="about__text text-light">
+                I'm a team oriented software developer currently developing an e-society application and a hotel mobile system at the mlab organization.
+                My passion & foundation in graphic design helps me in building user friendly UX/UI designs for mobile and web  platforms.
               </p>
-              <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              
+              <p className="about__text text-light">
+                I am currently enrolled at the Tshwane University Of Technology, studying an advanced diploma in computer science.
               </p>
-              <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-              </p>
+              
               <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
-                </a>
-                <a href="#">
-                  <button className="about btn pointer">Hire Me</button>
-                </a>
+
               </div>
+              
             </div>
           </div>
         </div>
       </div>
       {/* UP TO TOP BTN */}
       <div className="up__to__top__btn">
-        <a href="#" className="bottom__to__top">
+        <a href="#home" className="bottom__to__top">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

@@ -3,29 +3,43 @@ import './Contact.css';
 import contactImg from "./img/about-9.jpg"
 function Contact() {
     return (
-        <div className="contact component__space" id="Contact">
-            <div className="row">
-                <div className="col__2">
-                    <div className="contact__box">
-                        <div className="contact__meta">
-                            <h1 className="hire__text">Hire Me.</h1>
-                            <p className="hire__text white">I am available for freelance work. Connect with me via phone:</p>
-                           <p className="hire__text white"><strong>+8436 14 245</strong> or email <strong>admin@example.com</strong></p>
+        <div className="container-fluid p-0 m-0 bg-dark">
+            <div className="container p-3">
+            <div className="contact__box p-0 m-0">
+                        <div className="contact__meta p-0 m-0">
+                            <h1 className="hire__text p-0 ">CONTACT ME</h1>
+                            <p className="hire__text white p-0 m-0">I am available on the following social and contact platforms:</p>
+                           
+                           <div className="ps-3 pt-3 d-flex">
+                                <i class="bi bi-telephone pe-3 text-light"></i>
+                                <p className="d-flex text-light">(+27)81 276 7830</p>
+                           </div>
+
+                           <div className="ps-3 d-flex">
+                                <i class="bi bi-envelope-fill pe-3 text-light"></i>
+                                <p className="d-flex text-light">mdmawasha@gmail.com</p>
+                           </div>
+
+                           <div className="ps-3 d-flex">
+                                <i class="bi bi-linkedin pe-3 text-light"></i>
+                                <p className="d-flex text-light">Malesela Daniel Mawasha</p>
+                           </div>
+
+
+
                         </div>
-                        <div className="input__box">
-                           <input type="text" className="contact name" placeholder="Your name *" />
-                           <input type="text" className="contact email" placeholder="Your Email *" />
-                           <input type="text" className="contact subject" placeholder="Write a Subject" />
-                           <textarea name="message" id="message" placeholder="Write Your message"></textarea>
-                           <button className="btn contact pointer" type="submit">Submit</button>
-                        </div>
+                        
                     </div>
-                </div>
-                <div className="col__2">
-                    <img src={contactImg} alt="" className="contact__img" />
+            </div>
+            {/* <div className="contact component__space p-5" id="Contact">
+            <div className="row p-4">
+                <div className="col__2 p-0 m-0">
+                    
                 </div>
             </div>
+        </div> */}
         </div>
+        
     )
 }
 

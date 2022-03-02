@@ -1,16 +1,33 @@
 .about{
-    background: #191919;
+    background: #FFf;
+}
+
+.about__text{
+    text-align: 'justify';
+}
+
+#container-content{
+    background: #f7f7f7;
+background: linear-gradient(90deg,#f7f7f7 0%, #000000 80%);
+background: -webkit-linear-gradient(90deg,#f7f7f7 0%, #000000 80%);
+background: -moz-linear-gradient(90deg,#f7f7f7 0%, #000000 80%);
+    border-radius: 10px;
 }
 img.about__img{
     border-radius: 10px;
-    width: 100%;
+    width: 65%;
+    margin:auto;
+    display: flex;
+    text-align: center;
 }
+
 h1.about__heading{
+    margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
     font-family: Montserrat,sans-serif;
-    font-size: 60px;
+    font-size: 40px;
 }
 button.about.btn.pointer {
     text-transform: capitalize;
@@ -28,7 +45,7 @@ a.bottom__to__top{
     position: fixed;
     bottom: 3%;
     right: 2%;
-    background-color: #F9004D;
+    background-color: #f00000;
     border-radius: 50%;
     cursor: pointer;
     display: none;
