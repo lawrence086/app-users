@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/prof.png";
+import aboutImg from "./img/aboutpic.jpg";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -21,12 +21,25 @@ function About() {
             <div className="about__meta">
               
               <p className="about__text text-light">
-                I'm a team oriented software developer currently developing an e-society application and a hotel mobile system at the mlab organization.
-                My passion & foundation in graphic design helps me in building user friendly UX/UI designs for mobile and web  platforms.
+                I am skilled Software Developer with expertise in design, front-end,
+                and software systems. Equipped with diverse and promising skill-set.
+                Proficient in various platforms, languages, and embedded systems. Able
+                to effectively self-manage during independent projects, as well as collaborate
+                as part of a productive team.
+              </p>
+
+              <p className="about__text text-light">
+                Designs each piece of an application or system and plan how the pieces will
+                work together.
+              </p>
+
+              <p className="about__text text-light">
+                Creates a variety of models and diagrams that show programmers the software
+                code needed for an application.
               </p>
               
               <p className="about__text text-light">
-                I am currently enrolled at the Tshwane University Of Technology, studying an advanced diploma in computer science.
+                I am currently enrolled at the Tshwane University Of Technology, studying Advanced diploma in Computer Science.
               </p>
               
               <div className="about__button d__flex align__items__center">
@@ -39,7 +52,7 @@ function About() {
       </div>
       {/* UP TO TOP BTN */}
       <div className="up__to__top__btn">
-        <a href="#home" className="bottom__to__top">
+        <a href="#Home" className="bottom__to__top">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

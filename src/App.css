@@ -7,10 +7,10 @@
 body{
   width: 100%;
   height: 100%;
-  background: #fc4f4f;
-background: linear-gradient(168deg,#fc4f4f 0%, #ff9f45 40%, #f76e11 80%);
-background: -webkit-linear-gradient(168deg,#fc4f4f 0%, #ff9f45 40%, #f76e11 80%);
-background: -moz-linear-gradient(168deg,#fc4f4f 0%, #ff9f45 40%, #f76e11 80%);
+  background: #4b053e;
+  background: linear-gradient(90deg,#4b053e 0%, rgba(226,69,34,0.67) 40%, rgba(75,5,62,0.74) 80%);
+  background: -webkit-linear-gradient(90deg,#4b053e 0%, rgba(226,69,34,0.67) 40%, rgba(75,5,62,0.74) 80%);
+  background: -moz-linear-gradient(90deg,#4b053e 0%, rgba(226,69,34,0.67) 40%, rgba(75,5,62,0.74) 80%);
   font-family: sans-serif;
 }
 a{

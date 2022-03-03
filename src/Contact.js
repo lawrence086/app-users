@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import contactImg from "./img/about-9.jpg"
 function Contact() {
     return (
         <div className="container-fluid p-0 m-0 bg-dark">
@@ -12,17 +11,17 @@ function Contact() {
                            
                            <div className="ps-3 pt-3 d-flex">
                                 <i class="bi bi-telephone pe-3 text-light"></i>
-                                <p className="d-flex text-light">(+27)81 276 7830</p>
+                                <p className="d-flex text-light">(+27) 60 924 5249</p>
                            </div>
 
                            <div className="ps-3 d-flex">
                                 <i class="bi bi-envelope-fill pe-3 text-light"></i>
-                                <p className="d-flex text-light">mdmawasha@gmail.com</p>
+                                <p className="d-flex text-light">lawrencesekgoka086@gmail.com</p>
                            </div>
 
                            <div className="ps-3 d-flex">
                                 <i class="bi bi-linkedin pe-3 text-light"></i>
-                                <p className="d-flex text-light">Malesela Daniel Mawasha</p>
+                                <p className="d-flex text-light">Lawrence Madike Sekgoka</p>
                            </div>
 
 

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Project.css";
-import Project3 from './img/project_6.png';
-import Project4 from './img/project_7.png';
-import Project1 from './img/inns.png';
+import Project3 from './img/e-society.png';
+import Project4 from './img/adminMock.png';
+import Project1 from './img/e-hotel.png';
 import { Card } from 'react-bootstrap';
 
 function Project() {
@@ -27,7 +27,7 @@ function Project() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="project__meta absolute">
-                        <h5 className="project__text">e-Inns App</h5>
+                        <h5 className="project__text">e-Hotel App</h5>
                         </div>
                     </div>
                     </Card.Body>
@@ -46,7 +46,7 @@ function Project() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="project__meta absolute">
-                        <h5 className="project__text">Hair stylist app</h5>
+                        <h5 className="project__text">e-society app</h5>
                         </div>
                     </div>
                     </Card.Body>
@@ -66,7 +66,7 @@ function Project() {
                             <div className="mask__effect"></div>
                         </div>
                         <div className="project__meta absolute">
-                        <h5 className="project__text">e-Inns Admin</h5>
+                        <h5 className="project__text">e-hotel Admin</h5>
                         </div>
                     </div>
                     </Card.Body>

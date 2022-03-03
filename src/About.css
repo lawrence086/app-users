@@ -7,10 +7,10 @@
 }
 
 #container-content{
-    background: #f7f7f7;
-background: linear-gradient(90deg,#f7f7f7 0%, #000000 80%);
-background: -webkit-linear-gradient(90deg,#f7f7f7 0%, #000000 80%);
-background: -moz-linear-gradient(90deg,#f7f7f7 0%, #000000 80%);
+    background: rgba(75,5,62,0.15);
+background: linear-gradient(90deg,rgba(75,5,62,0.15) 0%, rgba(139,6,6,0.52) 80%);
+background: -webkit-linear-gradient(90deg,rgba(75,5,62,0.15) 0%, rgba(139,6,6,0.52) 80%);
+background: -moz-linear-gradient(90deg,rgba(75,5,62,0.15) 0%, rgba(139,6,6,0.52) 80%);
     border-radius: 10px;
 }
 img.about__img{

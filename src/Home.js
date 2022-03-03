@@ -47,12 +47,12 @@ function Home() {
               <div className="col col-md-8 col-lg-8 col-sm-12">
               <div className="home__content ps-5">
                 <div className="home__meta ps-5">
-                  <h2 className="home__text pz__10">Hi, I’m Daniel Mawasha</h2>
+                  <h2 className="home__text pz__10">Hi, I’m Lawrence Sekgoka</h2>
                   <h3 className="home__text sweet pz__10 lead text-light">Software Developer & Designer</h3>
                 </div>
                 <div className="row">
                   <div className="col col-md col-lg col-sm-12 ps-5 ms-3 mt-3">
-                    <Button variant="dark" className="btn-contact">Contact Me</Button>
+                    <Button href="#Portfolio" variant="dark" className="btn-contact">Contact Me</Button>
                   </div>
                   <div className="col col-md col-lg col-sm-12">
                     

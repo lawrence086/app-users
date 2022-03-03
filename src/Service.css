@@ -1,8 +1,8 @@
 .service{
-    background: #f76e11;
-background: linear-gradient(178deg,#f76e11 0%, #dd4a48 40%);
-background: -webkit-linear-gradient(178deg,#f76e11 0%, #dd4a48 40%);
-background: -moz-linear-gradient(178deg,#f76e11 0%, #dd4a48 40%);
+    background: rgba(226,69,34,0.67) 40%;
+    /* background: linear-gradient(90deg,#4b053e 0%, rgba(226,69,34,0.67) 40%, rgba(75,5,62,0.74) 80%); */
+    /* background: -webkit-linear-gradient(90deg,#4b053e 0%, rgba(226,69,34,0.67) 40%, rgba(75,5,62,0.74) 80%);
+    background: -moz-linear-gradient(90deg,#4b053e 0%, rgba(226,69,34,0.67) 40%, rgba(75,5,62,0.74) 80%); */
 }
 
 .icon-skill{

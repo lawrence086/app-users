@@ -18,8 +18,8 @@
 .mock-img{
     position: 'absolute';
     height: 25rem;
-    transform: rotate(5deg);
-    bottom: -30;
+    /* transform: rotate(5deg); */
+    /* bottom: -30; */
 }
 .navigation{
     justify-content: end;
